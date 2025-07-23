@@ -33,6 +33,7 @@ public class LoginPage {
 
 	// adding action function
 	public void enterUsername(String username) {
+		
 		Log.info("Entering username: " + username);
 		
 		usernameTextbox.clear();
@@ -42,6 +43,7 @@ public class LoginPage {
 	}
 
 	public void enterPassword(String password) {
+		
 		Log.info("Entering password: *****");
 		
 		passwordTextbox.clear();
@@ -51,6 +53,7 @@ public class LoginPage {
 	}
 
 	public void clickLogin() {
+		
 		Log.info("Clicking login button.");
 		
 		LoginButton.click();
