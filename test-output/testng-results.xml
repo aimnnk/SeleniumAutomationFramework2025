@@ -2,56 +2,44 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T17:52:57 MYT" name="LoginSuite" finished-at="2025-07-23T17:53:07 MYT" duration-ms="10061">
+  <suite started-at="2025-07-29T12:38:40 MYT" name="Default suite" finished-at="2025-07-29T12:38:47 MYT" duration-ms="6971">
     <groups>
     </groups>
-    <test started-at="2025-07-23T17:52:57 MYT" name="LoginTest" finished-at="2025-07-23T17:53:07 MYT" duration-ms="10061">
+    <test started-at="2025-07-29T12:38:40 MYT" name="Default test" finished-at="2025-07-29T12:38:47 MYT" duration-ms="6971">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-07-23T17:52:56 MYT" name="setupReport" finished-at="2025-07-23T17:52:57 MYT" duration-ms="916" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-07-29T12:38:40 MYT" name="setupReport" finished-at="2025-07-29T12:38:40 MYT" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-07-23T17:52:57 MYT" name="setUp" finished-at="2025-07-23T17:53:05 MYT" duration-ms="7826" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-07-29T12:38:40 MYT" name="setUp" finished-at="2025-07-29T12:38:45 MYT" duration-ms="4795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-07-23T17:53:05 MYT" name="testValidLogin" finished-at="2025-07-23T17:53:06 MYT" duration-ms="1199" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Username1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pass1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-07-29T12:38:45 MYT" name="testValidLogin" finished-at="2025-07-29T12:38:46 MYT" duration-ms="1180" status="FAIL">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button' is not a valid XPath expression.
-  (Session info: chrome=138.0.7204.158)
+  (Session info: chrome=138.0.7204.169)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80db4f924538d42ea582acbf50b795d4, findElement {using=xpath, value=//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\SDABKM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53117/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 80db4f924538d42ea582acbf50b795d4]]>
+Command: [18064166107597fe580b07ea233b2d85, findElement {using=xpath, value=//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\SDABKM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18064166107597fe580b07ea233b2d85]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button' is not a valid XPath expression.
-  (Session info: chrome=138.0.7204.158)
+  (Session info: chrome=138.0.7204.169)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80db4f924538d42ea582acbf50b795d4, findElement {using=xpath, value=//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\SDABKM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53117/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 80db4f924538d42ea582acbf50b795d4
+Command: [18064166107597fe580b07ea233b2d85, findElement {using=xpath, value=//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\SDABKM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18064166107597fe580b07ea233b2d85
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -70,9 +58,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
 at pages.LoginPage.clickLogin(LoginPage.java:59)
-at tests.LoginTest.testValidLogin(LoginTest.java:71)
+at tests.LoginTest.testValidLogin(LoginTest.java:73)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,22 +95,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-07-23T17:53:06 MYT" name="tearDown" finished-at="2025-07-23T17:53:07 MYT" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-07-29T12:38:46 MYT" name="tearDown" finished-at="2025-07-29T12:38:47 MYT" duration-ms="929" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2767e23c] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=LoginTest.testValidLogin()[pri:0, instance:tests.LoginTest@31ea9581] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-07-23T17:53:07 MYT" name="teardownReport" finished-at="2025-07-23T17:53:08 MYT" duration-ms="961" status="PASS">
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-07-29T12:38:47 MYT" name="teardownReport" finished-at="2025-07-29T12:38:52 MYT" duration-ms="4802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownReport -->
       </class> <!-- tests.LoginTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- LoginSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
