@@ -33,34 +33,31 @@ public class LoginTest extends BaseTest {
 		ExcelUtils.closeExcel();
 		return data;
 	}
-	
+
 	// get data from a data provider method
-	@DataProvider(name="LoginData2")
-	public Object[][] getData(){
-		return new Object[][] {
-			{"user1", "pass1"},
-			{"user2", "pass2"},
-			{"admin@yourstore.com", "admin"}
-		};
+	@DataProvider(name = "LoginData2")
+	public Object[][] getData() {
+
+		return new Object[][] { { "user1", "pass1" }, { "user2", "pass2" }, { "user3", "pass3" } };
 	}
 
 	// add test function
 //	@Test(dataProvider = "LoginData2")
-	
+
 //	@Test
 //	@Parameters({"username", "password"})
-	
+
 	@Test
 	public void testValidLogin() {
 
-		Log.info("Staring login test..");
+		Log.info("Starting login test...");
 		test = ExtentReportManager.createTest("Login Test - ");
 
 		test.info("Navigating to URL");
 		LoginPage loginPage = new LoginPage(driver);
 
 		Log.info("Adding credentials");
-		test.info("Adding Credentials");
+		test.info("Adding Credentails");
 
 		// hardcoded
 		loginPage.enterUsername("admin@yourstore.com");
@@ -69,13 +66,14 @@ public class LoginTest extends BaseTest {
 		// get from excel sheet
 //		loginPage.enterUsername(username);
 //		loginPage.enterPassword(password);
-		test.info("Clicking on Login Button");
+		test.info("Clicking on Login button");
 		loginPage.clickLogin();
 
-		System.out.println("Title of page is: " + driver.getTitle());
+		System.out.println("Title of the page is : " + driver.getTitle());
 		Log.info("Verifying page title");
 		test.info("Verifying page title");
 		Assert.assertEquals(driver.getTitle(), "Just a moment...");
+
 		test.pass("Login Successful");
 	}
 
